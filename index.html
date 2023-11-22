@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O evento de investimentos mais completo de
+    Aracaju! Um encontro único com grandes nomes da área, repleto de insights valiosos e oportunidades de
+    networking exclusivas. Mostraremos a você que investir é para todo mundo.">
+    <title>Todo Mundo Pode Investir</title>
+
+    <link rel="icon" href="./img/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <script src="./js/accordion-pre-set.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="countdown"></div>
+        <a href="https://pay.kiwify.com.br/nuZf5FQ">
+            <div><img src="./img/two-movie-tickets.png" height="18" style="margin-right: 10px;" alt="">Garanta sua
+                vaga</div>
+        </a>
+    </header>
+
+    <main>
+
+        <!-- Seção de Apresentação Principal -->
+        <section class="apresentacao-principal">
+            <div class="block-content">
+                <h1>TODO MUNDO<br><span class="subtitle">PODE INVESTIR</span></h1>
+                <h4><i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i>Aracaju SE - Hotel
+                    Quality<br><span style="font-weight: lighter;">09 de Dezembro</span></h4>
+                <img class="fade-in-element" src="./img/banner-done.png" height="800" alt="Palestrantes Banner">
+            </div>
+        </section>
+
+        <!-- Seção de Descrição -->
+        <section class="descricao">
+
+            <h2 style="margin-bottom: 20px;">Chegou a hora!</h2>
+            <p style="margin: auto; margin-bottom: 60px;">O evento de investimentos mais completo de Aracaju! Neste
+                encontro único,
+                você aprenderá renda fixa, fundos imobiliários, milhas aéreas e tudo o que você precisará para construir
+                uma vida financeira sólida, focada no longo prazo.
+                Acreditamos que investir é para todo mundo.</p>
+            <a style="margin-top: 30px; margin-bottom: 20px;" href="https://pay.kiwify.com.br/nuZf5FQ">
+                <div><img src="./img/two-movie-tickets.png" height="18" style="margin-right: 10px;" alt="">Garanta sua
+                    Vaga</div>
+            </a>
+            <h3 style="color: rgb(185, 185, 185);">Vagas LIMITADAS!</h3>
+
+        </section>
+
+        <!-- Seção do VSL -->
+        <section class="vsl">
+            <div class="fade-top"></div>
+            <div class="fade-bottom"></div>
+            <video id="vsl" class="K8MSra" role="presentation" crossorigin="anonymous" playsinline="" preload="auto"
+                muted="" loop="" tabindex="-1" autoplay=""
+                src="https://video.wixstatic.com/video/488cf3_2d98b5c9d5d5451c9cddbe6b25dc4ee1/480p/mp4/file.mp4"
+                style="height: 100%; width: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
+            <button id="restart" class="restart" style="display: none;"><img src="./img/restart.png" alt=""></button>
+            <button id="mute" class="unmute"><img src="./img/mute.png" alt=""></button>
+        </section>
+
+        <!-- Seção de Palestrantes -->
+        <section class="palestrantes fade-in-element">
+
+            <div class="box-flex-full">
+                <div class="sessao-titulo">Palestrantes</div>
+            </div>
+            <h2 style="width: 100%; text-align:center; margin-bottom: 70px;">Conheça os <span
+                    style="color: #8A3AE2; font-weight: bold;">Palestrantes</span></h2>
+
+            <div class="slides">
+                <div class="palestrante" onmouseover="showDescription(1)" onmouseout="hideDescription(1)">
+                    <img src="./img/bebeto-light.png" alt="Roberto Brandini png">
+                    <div class="description">
+                        <p><h5 style="color: #8A3AE2;">ROBERTO BRANDINI</h5> <br>
+                            <span style="color: #8A3AE2;">Roberto Brandini tem 29 anos</span> e nasceu em Aracaju.
+                            Estudou Engenharia Civil na UFS e na Alemanha e
+                            entrou no
+                            mercado financeiro dos 24 anos.<br><br>
+                            <span style="color: #8A3AE2;">Trabalhou 2 anos no Banco Safra</span> como assessor de
+                            alta-renda, onde administrou grandes fortunas. <br><br>
+                            <span style="color: #8A3AE2;">Com mais de 4.000 seguidores</span> no Instagram e 500
+                            leitores de sua Newsletter, é um professor nato.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slides">
+                <div class="palestrante" onmouseover="showDescription(2)" onmouseout="hideDescription(2)">
+                    <img src="./img/mayara-light.png" alt="Mayara png">
+                    <div class="description">
+                        <p><h5 style="color: #8A3AE2;">MAYARA SANTOS</h5> <br>
+                            <span style="color: #8A3AE2;">Mayara tem 28 anos</span> e nasceu em Itabaiana. <br><br>
+                            <span style="color: #8A3AE2;">Com 25 anos conheceu o mercado financeiro</span> e se
+                            apaixonou a primeira vista. Dominou o assunto e logo
+                            foi trabalhar como assessor do Banco BTG, em
+                            Aracaju. Após quase 2 anos administrando milhões de
+                            reais diariamente, foi
+                            convidada pelo setor
+                            de
+                            invéstimentos do Banco Santander, ode trabalha hoje. <br><br>
+                            <span style="color: #8A3AE2;">Com mais de 16.000 seguidores</span> no Instagram, Mayara
+                            compartilha sobre finanças pessoais, investimentos
+                            e
+                            desmistifica a relação do feminino com o dinheiro.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slides">
+                <div class="palestrante" onmouseover="showDescription(3)" onmouseout="hideDescription(3)">
+                    <img src="./img/danilo-light.png" alt="Danilo png">
+                    <div class="description">
+                        <p><h5 style="color: #8A3AE2;">DANILO SMITH</h5> <br>
+                            <span style="color: #8A3AE2;">Danilo tem 32 anos</span> e nasceu em Aracaju. <br><br>
+                            <span style="color: #8A3AE2;">Engenheiro de produção</span> com pós em marketing,
+                            hoje é um dos principais nomes em mentorias
+                            financeiras em Aracaju, com 400+ alunos. <br><br>
+                            <span style="color: #8A3AE2;"></span>Auto-didata nos investimentos, hoje compartilha
+                            seu lifestyle saudável e focado no longo prazo que
+                            o levaram à total liberdade geográfica no seu
+                            Instagram, onde reúne quase 6.000 seguidores.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slides">
+                <div class="palestrante" onmouseover="showDescription(4)" onmouseout="hideDescription(4)">
+                    <div class="description">
+                        <p><h5 style="color: #8A3AE2;">VINICÍUS CARVALHO</h5> <br>
+                            <span style="color: #8A3AE2;">Vinicius Carvalho tem 30 anos</span> e nasceu em Aracaju. <br><br>
+                            <span style="color: #8A3AE2;">É um dos maiores nomes em milhas aéreas
+                                de
+                                Aracaju.</span> Fundador da Inter Connect Tour, influente
+                            agência de viagens, Vinicius compartilha os truques
+                            e oportunidades que as milhas areas oferecem. <br><br>
+                            Seu Instagram reúne<span style="color: #8A3AE2;"> mais de 19.000 seguidores!</span>Fornecendo conteúdos acerca das melhores plataformas e cartões de crédito do mercado e como
+                            procurar passagens imperdíveis na internet.</p>
+                    </div>
+                    <img src="./img/winicius-light.png" alt="Vinicius png">
+                </div>
+            </div>
+
+            <div class="fade-bottom" style="height: 40px; bottom: 210px;"></div>
+
+            <div
+                style="display: flex; align-items: center; position: absolute; bottom: 130px; left: 50%; width: fit-content; transform: translateX(-50%);">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <!-- Adicione mais pontos aqui conforme necessário -->
+            </div>
+
+            <div class="botoes"
+                style="width: 95%; display: flex; justify-content: center; transform: translate(40px, -40px);">
+                <button class="prev" onclick="plusSlides(-1)"
+                    style="margin-right: 20px; background-color: transparent; border: none;"><img
+                        src="./img/preview.png" width="40px" alt="anterior"></button>
+                <button class="next" onclick="plusSlides(1)"
+                    style="margin-right: 20px; background-color: transparent; border: none;"><img src="./img/next.png"
+                        width="40px" alt="próximo"></button>
+            </div>
+
+        </section>
+
+        <!-- Seção de Programação e Conteúdo -->
+        <section class="schedule fade-in-element">
+
+            <div class="fade-top" style="height: 30px;"></div>
+            <div class="fade-bottom" style="height: 30px; bottom: 0;"></div>></div>
+
+            <!-- Overlay transparente -->
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(14, 12, 47, 0.8);">
+            </div>
+
+            <div style="z-index: 2; position: absolute; left: 50%; transform: translateX(-50%);">
+                <div class="box-flex-full">
+                    <div class="sessao-titulo">Programação</div>
+                </div>
+                <h2 style="width: 100%; text-align:center; margin-bottom: 50px;">Confira a <span
+                        style="color: #8A3AE2; font-weight: bold;">Programação</span></h2>
+                <ul id="lista-perguntas" class="accordion-1">
+                    <div class="pergunta">
+                        <li>
+                            <div class="pergunta-header">
+                                <div class="texto" style="width: 90%;">
+                                    <span style="color: #8A3AE2; font-size: 16px;">9h00</span>
+                                    <p>Das Antiguidades aos Dias Atuais - Taxa Selic </p>
+                                </div>
+                                <svg width="18" height="12" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="transparent" stroke-width="7"
+                                        stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <div class="resposta">
+                                <p>A história do dinheiro <br>
+                                    Italiana como a pizza: nasce a taxa SELIC <br>
+                                    Quem mexe na taxa SELIC? <br>
+                                    A ganância espanhola: nasce a inflação <br>
+                                    Quem calcula a inflação? <br>
+                                    SELIC e Inflação: um caso de amor e ódio</p><br>
+                            </div>
+                        </li>
+
+                    </div>
+                    <div class="pergunta">
+                        <li>
+                            <div class="pergunta-header">
+                                <div class="texto" style="width: 90%;">
+                                    <span style="color: #8A3AE2; font-size: 16px;">11h00</span>
+                                    <p>Seu Primeiro Investimento - Renda Fixa</p>
+                                </div>
+                                <svg width="18" height="12" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="transparent" stroke-width="7"
+                                        stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <div class="resposta">
+                                <p>Para quem empresto o meu dinheiro? <br>
+                                    CDB, LCI, CRI: Para que tanta sigla? <br>
+                                    Qual o juros que eu recebo? <br>
+                                    E se o banco for a falência? <br>
+                                    Lucrei na renda fixa: tem imposto?</p>
+                                <br>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="pergunta">
+                        <li>
+                            <div class="pergunta-header">
+                                <div class="texto" style="width: 90%;">
+                                    <span style="color: #8A3AE2; font-size: 16px;">14h00</span>
+                                    <p>O Fantástico Mundo das Milhas Aéreas</p>
+                                </div>
+                                <svg width="18" height="12" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="transparent" stroke-width="7"
+                                        stroke-linecap="round">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="resposta">
+                                <p>Como funcionam as milhas? <br>
+                                    Como ganhar dinheiro com milhas? <br>
+                                    Quais melhores plataformas e cartões? <br>
+                                    Como aproveitar as promoções?</p>
+                                <br>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="pergunta">
+                        <li>
+                            <div class="pergunta-header">
+                                <div class="texto" style="width: 90%;">
+                                    <span style="color: #8A3AE2; font-size: 16px;">17h00</span>
+                                    <p>Ações e Fundos Imobiliários - Bolsa de Valores</p>
+                                </div>
+                                <svg width="18" height="12" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="transparent" stroke-width="7"
+                                        stroke-linecap="round">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="resposta">
+                                <p>
+                                    Bolsa de Valores: um mundo fascinante <br>
+                                    De Amsterdam para o mundo: Nasce a Bolsa <br>
+                                    Ação: um pedacinho de uma empresa <br>
+                                    Fundo Imobiliário: paraiso do viver de renda <br>
+                                    Como analisar as ações para o novo ciclo? <br>
+                                    Como comprar ação na prática?
+                                </p>
+                                <br>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- Seção de Tickets -->
+        <section class="tickets-section">
+            <div class="tickets-top">
+                <h2 style="text-align: center;">Temos um lugar especial para você!</h2>
+                <div class="tickets-container">
+                    <div class="tickets">
+                        <img src="./img/ticket2.png" alt="" style="z-index: 2;">
+                        <img src="./img/ticket1.png" alt="" style="z-index: 3;">
+                        <img src="./img/ticket3.png" alt="" style="z-index: 2;">
+                    </div>
+                </div>
+            </div>
+            <div class="tickets-bottom">
+                <p>O evento de investimentos mais completo de Aracaju</p>
+
+                <a href="https://pay.kiwify.com.br/nuZf5FQ">
+                    <div>Garanta seu Ingresso</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção de Recomendados -->
+        <section class="recomendado"></section>
+
+        <!-- Seção de Pagamento -->
+        <section class="pagamento">
+            <div class="pay">
+                <h1>Oportunidade Imperdível</h1>
+                <h3 style="margin-bottom: 50px; color: rgb(185, 185, 185);">Vagas LIMITADAS (100 pessoas)</h3>
+                <h5 style="margin-bottom: 50px;">por apenas</h5>
+                <span style="font-size: 60px; font-family: 'Bai Jamjuree', sans-serif;">R$ 147,00</span>
+                <a style="margin-top: 30px;" href="https://pay.kiwify.com.br/nuZf5FQ">
+                    <div><img src="./img/two-movie-tickets.png" height="18" style="margin-right: 10px;" alt="">Garanta
+                        sua Vaga</div>
+                </a>
+                <img class="formas-pagamento" width="350" src="./img/pagamentos.png" alt="Formas de Pagamento">
+            </div>
+            <div class="pagamento-seguro">
+                <div class="container" style="margin: auto;">
+                    <div class="row">
+                        <div class="col-md-3" style="display: flex; justify-content: center;">
+                            <img src="./img/seguro.jpg" height="200" alt="Pagamento Seguro">
+                        </div>
+                        <div class="col-md-8" style="display: flex; justify-content: center;">
+                            <div class="texto">
+                                <h1>PAGAMENTO SEGURO</h1>
+                                <p>No Todo Mundo Pode Investir você tem tranquilidade e segurança ao adquirir seu
+                                    ingresso. Com a Kiwify, seus dados financeiros estão resguardados por protocolos
+                                    avançados de segurança, seguindo a lei Lei nº 13.709 (Lei Geral de Proteção de Dados
+                                    - LGPD), que estabelece um conjunto de regras para coleta, tratamento, armazenamento
+                                    e compartilhamento de dados pessoais.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de FAQ -->
+        <section class="FAQ fade-in-element">
+
+            <img class="light" src="./img/background-light.png" height="800" alt="">
+
+            <div>
+
+                <div class="box-flex-full">
+                    <div class="sessao-titulo">Perguntas Frequentes</div>
+                </div>
+                <h2 style="width: 100%; text-align:center; margin-bottom: 50px;">Ficou alguma <span
+                        style="color: #8A3AE2; font-weight: bold;">dúvida</span>?</h2>
+
+                <ul id="lista-perguntas" class="accordion-1">
+                    <div class="pergunta">
+                        <li>
+                            <div class="pergunta-header">
+                                <p>🌏 O que é a Todo Mundo Pode Investir?</p>
+                                <svg width="18" height="12" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="transparent" stroke-width="7"
+                                        stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <div class="resposta">
+                                <p>A Todo Mundo Pode Investir é o evento de investimentos mais completo de
+                                    Aracaju! Um encontro único com grandes nomes da área, repleto de insights valiosos e
+                                    oportunidades de
+                                    networking exclusivas. Mostraremos a você que investir é para todo mundo.</p><br>
+                            </div>
+                        </li>
+
+                    </div>
+                    <div class="pergunta">
+                        <li>
+                            <div class="pergunta-header">
+                                <p>🎟️ O que acontece após o pagamento?</p>
+                                <svg width="18" height="12" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="transparent" stroke-width="7"
+                                        stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                            <div class="resposta">
+                                <p>Após clicar no botão "Garanta sua Vaga", você será direcionado(a) para a página de
+                                    checkout da Kiwify
+                                    onde deverá inserir os dados de pagamento em cartão, boleto ou Pix.</p><br>
+                                <p>Assim que o pagamento for confirmado pelo banco você receberá um e-mail com uma
+                                    mensagem
+                                    de
+                                    confirmação, garantindo sua entrada na Todo Mundo Pode Investir. Pronto, depois é só
+                                    aproveitar!
+                                </p>
+                                <br>
+                                <p>Caso tenha qualquer dúvida é só escrever pra gente: (79) 9 8135-8136</p>
+                                <br>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="pergunta">
+                        <li>
+                            <div class="pergunta-header">
+                                <p>💰 Preciso ter muito dinheiro para querer investir?</p>
+                                <svg width="18" height="12" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="transparent" stroke-width="7"
+                                        stroke-linecap="round">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="resposta">
+                                <p>Não! No Todo Mundo Pode Investir exploramos muito essa questão. Criatividade e organização se aprende e se exercita. Neste
+                                    encontro, você terá uma
+                                    ótima base e bons exemplos para aplicar no seu dia a dia.</p>
+                                <br>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="pergunta">
+                        <li>
+                            <div class="pergunta-header">
+                                <p>🏦 Preciso ter conta em algum banco específico?</p>
+                                <svg width="18" height="12" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="transparent" stroke-width="7"
+                                        stroke-linecap="round">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="resposta">
+                                <p>Não. Todos os bancos brasileiros tem opções de investimento. Mas, no Todo Mundo Pode Investir,
+                                    você verá quais as melhores opções para fazer tanto seu primeiro investimento como também para os daqueles quem
+                                    já começaram a investir.
+                                </p>
+                                <br>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <a href="https://api.whatsapp.com/send?phone=5579981358136" class="whatsapp-button" target="_blank">
+        <img src="http://localhost/ultimatemembers/public/img/whatsapp.png" alt="Ícone do WhatsApp">
+    </a>
+
+    <footer>
+        <div class="copyright">
+            &copy; 2023, Todo Mundo Pode Investir | Desenvolvido por <a href="https://www.instagram.com/simplifyweb/"
+                target="_blank">Simplify Web</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/tempo.js"></script>
+    <script src="./js/header-effect.js"></script>
+    <script src="./js/fade-in-element.js"></script>
+    <script src="./js/video-controls.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/tickets-hover.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/descricao-dinamica.js"></script>
+
+    <!-- Coloque o código do pixel do Facebook aqui -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '300804022347215');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=300804022347215&ev=PageView&noscript=1" /></noscript>
+    <!-- Fim do código do pixel do Facebook -->
+
+
+</body>
+
+</html>
