@@ -570,6 +570,19 @@ footer a:hover {
     .schedule {
         height: 1250px;
     }
+
+    .slides img {
+        transform: scale(0.8);
+    }
+
+    .slides .description {
+        max-width: 280px;
+        font-size: 13px;
+    }
+
+    .palestrantes .fade-bottom {
+        bottom: 240px !important; 
+    }
 }
 
 @media (max-width: 780px) {
